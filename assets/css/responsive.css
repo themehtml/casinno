@@ -1,0 +1,81 @@
+@media only screen and (max-width : 2500px) {
+    .page-wrapper{
+      overflow:hidden;
+    }
+    
+}
+
+@media only screen and (max-width : 1199px) {
+	.mt-xl-40{
+      margin-top:40px;
+    }
+	.mb-xl-40{
+      margin-bottom:40px;
+    }
+	.atf-nav-list {
+			gap: 25px;
+	}
+	.text-effect {
+		font-size: 65px;
+	}
+	.atf-newsletter-title.text-start{
+		text-align:center ! important;
+	}
+}
+@media only screen and (max-width:991px) {
+    .mt-lg-40{
+      margin-top:40px;
+    }
+	.mb-lg-40{
+      margin-bottom:40px;
+    }
+	.atf-section-padding{
+		padding-top:60px;
+		padding-bottom:60px;
+	} 
+	.atf-top-header{
+		display:none;
+	}
+	.atf-single-feature{
+		margin:15px 0;
+	}
+	.atf-contact-info {
+		margin: 25px 0px;
+	}
+	.atf-hero-area.atf-cover-bg::before {
+		background: rgba(0, 0, 0, 0.6);
+	}
+
+}
+  
+@media only screen and (max-width:767px) {
+	.testimonial-content {
+		justify-content:center;
+	}
+}
+@media only screen and (max-width:576px) {
+	.atf-header-btn.atf-hero-btn{
+		display:none;
+	}
+}
+
+@media screen and (min-width:320px) and (max-width:479px) {
+	#accordion .card-title button {
+		font-size: 16px;
+	}
+	.atf-newsletter-title .title {
+		font-size: 24px;
+	}
+	.text-effect {
+		font-size: 45px;
+	}
+	.atf-section-title .title{
+		font-size:30px;
+	}
+	.atf-newsletter-area {
+		padding:20px 0;
+	}
+	.atf-refer-content {
+		flex-wrap: wrap;
+	}
+}
